@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* vanilla css styles */
+
+/* transition for hover feature */
+.Hover {
+  transition: 500ms;
+}
+
+
+
+/* faq page */
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer.show {
+  height: auto;
+  max-height: 9999px;
+  overflow: hidden;
+  transition: all 1.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.second-nav {
+  border-radius: 0px 0px 10px 10px;
+  transition: ease-in-out;
+}

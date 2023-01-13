@@ -1,0 +1,45 @@
+.custom {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 100%;
+  background: linear-gradient(180deg, #FF0000 0%, #140000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.heading-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 100%;
+  width: 98%;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.custom-heading {
+  width: 400px;
+}
+
+.burst {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 65px;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.subheading {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
+}
